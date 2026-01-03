@@ -38,7 +38,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         [InlineKeyboardButton("🔗 Link Alternatif Vivatogel", url="https://goid.cc/apkvivatogel")],
         [InlineKeyboardButton("💬 Livechat Vivatogel", url="https://secure.livechatenterprise.com/licence/15579411/v2/open_chat.cgi")],
         [InlineKeyboardButton("📘 Facebook Vivatogel", url="https://www.facebook.com/vivatogel303/")],
-        [InlineKeyboardButton("📱 Whatsapp Channel Vivatogel", url="https://whatsapp-lu.com")],
         [InlineKeyboardButton("🔥 RTP Terupdate Vivatogel", url="https://rtpvivaprox.it.com/")],
         [InlineKeyboardButton("🎁 Promo & Bonus Vivatogel", url="https://goid.cc/vivapromo")],
         [InlineKeyboardButton("🚀 Prediksi Vivatogel", url="https://goid.cc/rtpviva")],
@@ -61,4 +60,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
