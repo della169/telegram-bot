@@ -9,8 +9,11 @@ TOKEN = os.getenv("BOT_TOKEN")
 BANNER_URL = "https://victorycool.com/slidervivatogel1.webp"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    user = update.effective_user
+    nama = user.first_name or "BOSKU"
+
     text = (
-        "Hello BOSKU! 👋\n\n"
+        f"Halo {nama}! 👋\n\n"
         "🔥 SELAMAT DATANG DI BOT VIVATOGEL 🔥\n\n"
         "✅ Situs Resmi & Terpercaya\n"
         "🎰 Pasaran Togel Lengkap\n"
@@ -58,3 +61,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
