@@ -34,13 +34,13 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
     keyboard = [
-        [InlineKeyboardButton("🔴 Link Daftar Vivatogel", url="https://goid.cc/vivaterpercaya")],
-        [InlineKeyboardButton("🔗 Link Alternatif Vivatogel", url="https://goid.cc/apkvivatogel")],
+        [InlineKeyboardButton("🔴 Link Daftar Vivatogel", url="https://iniya.cc/vivato")],
+        [InlineKeyboardButton("🔗 Link Alternatif Vivatogel", url="https://iniya.cc/vivato")],
         [InlineKeyboardButton("💬 Livechat Vivatogel", url="https://secure.livechatenterprise.com/licence/15579411/v2/open_chat.cgi")],
-        [InlineKeyboardButton("📘 Facebook Vivatogel", url="https://www.facebook.com/vivatogel303/")],
-        [InlineKeyboardButton("🔥 RTP Terupdate Vivatogel", url="https://rtpvivaprox.it.com/")],
-        [InlineKeyboardButton("🎁 Promo & Bonus Vivatogel", url="https://goid.cc/vivapromo")],
-        [InlineKeyboardButton("🚀 Prediksi Vivatogel", url="https://goid.cc/rtpviva")],
+        [InlineKeyboardButton("📘 Facebook Vivatogel", url="https://iniya.cc/vivato")],
+        [InlineKeyboardButton("🔥 RTP Terupdate Vivatogel", url="https://iniya.cc/vivato")],
+        [InlineKeyboardButton("🎁 Promo & Bonus Vivatogel", url="https://iniya.cc/vivato")],
+        [InlineKeyboardButton("🚀 Prediksi Vivatogel", url="https://iniya.cc/vivato")],
     ]
 
     await context.bot.send_photo(
